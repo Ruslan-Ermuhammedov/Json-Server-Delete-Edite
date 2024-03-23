@@ -1,0 +1,91 @@
+.ContenerComment {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #d9e3e9d8;
+  padding: 30px;
+}
+.CommentTop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #fff; */
+  padding: 10px;
+}
+.AddComment {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #0091ff;
+  color: aliceblue;
+  border: none;
+  font-weight: bold;
+}
+.CommetnModal {
+  min-height: 400px;
+  padding: 20px;
+  min-width: 340px;
+  width: 400px;
+  box-shadow: 0 0 5px rgb(174, 174, 174);
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  position: absolute;
+  align-items: center;
+  top: -300px;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  transition: 0.6s linear;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.modalShow {
+  top: 60%;
+}
+.CommentFormModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+.CommentFormModal > * {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+.CommentContenerUi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 60px;
+}
+.CommedntCrardUi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 34px 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.DeleteEditeCard {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: none;
+  background-color: transparent;
+}
+.DeleteEditeCard button {
+
+  border: none;
+  background-color: transparent;
+}
+.icons{
+    font-size: 20px;
+}

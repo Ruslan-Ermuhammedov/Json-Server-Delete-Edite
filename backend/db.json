@@ -1,0 +1,21 @@
+{
+  "user": [],
+  "products": [],
+  "comments": [
+    {
+      "name": "Ruslan",
+      "comment": "mani ismim ruslan",
+      "id": 1
+    },
+    {
+      "name": "akmal",
+      "comment": "salom akmal",
+      "id": 5
+    },
+    {
+      "name": "sarvar",
+      "comment": "hello sarvar",
+      "id": 7
+    }
+  ]
+}
